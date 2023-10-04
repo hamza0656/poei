@@ -1,0 +1,11 @@
+name: Hamza
+
+on: issues
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: steps Issue créée !
+        run: echo Issue créée !
